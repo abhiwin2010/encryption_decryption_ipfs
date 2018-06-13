@@ -1,4 +1,4 @@
-# Ipfs_ethereum
+# Encryption_Decryption_IPFS
 This Repository Contains All The Effective Algorithms Of Encryption &amp; Decryption in Python 2 & 3. Please Go through "File_Encrypt_Decrypt.ipynb" for the executed script. 
 
   1. Transposition File Cipher
