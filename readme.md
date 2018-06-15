@@ -16,15 +16,18 @@ This Repository Contains All The Effective Algorithms Of Encryption &amp; Decryp
 IPFS is the Inter PLanetary File System. It is a protocol and network designed to create a content-addressable, peer-to-peer method of storing and sharing hypermedia in a distributed file system.
 
 ### Prerequisites
-You need to get IPFS up and running in your local machine. You can download a copy of IPFS from [here](https://ipfs.io/docs/install/) and install it. After installation you can initialise ipfs by using 
+You need to get IPFS up and running in your local machine. You can download a copy of IPFS from [here](https://ipfs.io/docs/install/) and install it. After installation you can initialise ipfs by using :
+
 '''
 ipfs init
 '''
-Once initialised you will have to now to start the IPFS daemon by using 
+Once initialised you will have to now to start the IPFS daemon by using : 
+ 
 '''
 ipfs daemon
 '''
-where you'll see the following output if everything is working correctly.
+where you'll see the following output if everything is working correctly :
+
 '''
 Initializing daemon...
 Successfully raised file descriptor limit to 2048.
