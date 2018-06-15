@@ -18,17 +18,17 @@ IPFS is the Inter PLanetary File System. It is a protocol and network designed t
 ### Prerequisites
 You need to get IPFS up and running in your local machine. You can download a copy of IPFS from [here](https://ipfs.io/docs/install/) and install it. After installation you can initialise ipfs by using :
 
-'''
+```
 ipfs init
-'''
+```
 Once initialised you will have to now to start the IPFS daemon by using : 
  
-'''
+```
 ipfs daemon
-'''
+```
 where you'll see the following output if everything is working correctly :
 
-'''
+```
 Initializing daemon...
 Successfully raised file descriptor limit to 2048.
 Swarm listening on /ip4/127.0.0.1/tcp/4001
@@ -42,7 +42,8 @@ API server listening on /ip4/127.0.0.1/tcp/5001
 Gateway (readonly) server listening on /ip4/127.0.0.1/tcp/8080
 Daemon is ready
 
-'''
+
+```
 Now you are ready for testing.
 
 ### Running the Tests
