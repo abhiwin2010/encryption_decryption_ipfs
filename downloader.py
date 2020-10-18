@@ -2,7 +2,7 @@ import gnupg
 import ipfsapi
 import time
 from Crypto.Cipher import Blowfish
-
+''' downloader code for Blowfish encryption'''
 def downloader(hash,filename,password):
 	arr = filename.split('.')
 	outputFilename = arr[0] + "_decrypted." + arr[1]
