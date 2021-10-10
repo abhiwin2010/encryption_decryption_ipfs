@@ -26,6 +26,8 @@ def obsolete_encrypt(in_file, out_file, password, key_length=32):
             finished = True
         out_file.write(cipher.encrypt(chunk))
 
+# decryption method 
+
 def decrypt(in_file, out_file, password, key_length=32):
     bs = AES.block_size
     salt = in_file.read(bs)[len('Salted__'):]
